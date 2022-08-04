@@ -1,0 +1,8 @@
+<mvc:View controllerName="dmsintui.controller.View1"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <core:ComponentContainer usage="documentTable" height="100%" async="false" manifest="true"/>
+    </Page>
+</mvc:View>
